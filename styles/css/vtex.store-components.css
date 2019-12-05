@@ -4,8 +4,6 @@
   font-weight: bold;
   color: black;
   border: 2px solid black;
-  padding: 0;
-  margin: 0 auto;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
@@ -15,9 +13,8 @@
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-  color: gray;
   background-color: white;
-  border: transparent;
+  color: #000;
 }
 
 .infoCardContainer--vintage {
