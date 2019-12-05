@@ -22,9 +22,10 @@
   "flex-layout.col#right": {
     "children": [
       "product-name",
+      "product-price",
       "product-identifier.product",
       "shipping-simulator",
-      "product-price",
+      "flex-layout.row#qty-sku",
       "buy-button"
     ],
     "props": {
